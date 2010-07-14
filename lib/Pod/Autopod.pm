@@ -6,7 +6,7 @@ use strict;
 use Pod::Abstract;
 use Pod::Abstract::BuildNode qw(node nodes);
 
-our $VERSION = '1.09';
+our $VERSION = '1.10';
 
 # This Module is designed to generate pod documentation of a perl class by analysing its code.
 # The idea is to have something similar like javadoc. So it uses also comments written directly
@@ -1710,13 +1710,6 @@ ConstructorThe keyvalues are not mandatory.selfstring may hold something like '$
  $this->buildPod();
 
 Builds the pod. Called automatically when imporing a perl code.
-
-
-=head2 foo
-
- $this->foo();
-
-This method is doing foo. print $this->foo();It is not doing bar, only foo.
 
 
 =head2 getBorderString
