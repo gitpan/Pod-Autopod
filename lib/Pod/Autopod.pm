@@ -1,5 +1,5 @@
 package Pod::Autopod; ## Generates pod documentation by analysing perl modules.
-$Pod::Autopod::VERSION = '1.203';
+$Pod::Autopod::VERSION = '1.204';
 use 5.006; #Pod::Abstract uses features of 5.6
 use FileHandle;
 use strict;

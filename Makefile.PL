@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     "Pod::Abstract" => 0,
     "Pod::Abstract::BuildNode" => 0
   },
-  "VERSION" => "1.203",
+  "VERSION" => "1.204",
   "test" => {
     "TESTS" => "t/*.t"
   }
